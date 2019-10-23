@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const nodemailer = require('nodemailer');
 
-const Register = require('./Schema')
+const Register = require('./Model/Schema')
 const App = express()
 
 
